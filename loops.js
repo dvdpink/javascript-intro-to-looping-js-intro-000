@@ -20,14 +20,11 @@ function whileLoop(n) {
 
 
   function doWhileLoop (i){
-    var i = 0
+    var timesPrinted = 0
 
-    function incrementVariable() {
-      i = i + 1;
-      return i;
 }
  do {
    console.log("I run once regardless.");
- } while (
-incrementVariable()  < 10)
+   ++timesPrinted
+ } while (timesPrinted < i)
 }
