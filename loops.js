@@ -29,5 +29,5 @@ function whileLoop(n) {
  } while (function incrementVariable() {
    i = i + 1;
    return i;
-  incrementVariable()< 10);}
+  i< 10);}
 }
