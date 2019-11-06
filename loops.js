@@ -21,7 +21,6 @@ function whileLoop(n) {
 
   function doWhileLoop (i){
     var timesPrinted = 0
-}
  do {
    console.log("I run once regardless.")
  timesPrinted++
